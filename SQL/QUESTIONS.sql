@@ -30,3 +30,33 @@
 15. What are the products with an average price higher than the overall average product price? 
     Round the price to 2 decimal places and sort the result by price in descending order.
 
+16. What are the names and countries of all customers who have ordered products from category 'Seafood'?
+
+17. Which suppliers provide products that cost more than 50? Show the supplier name and product name.
+
+18. What are the customers who have never placed an order? Show customer ID and customer name.
+
+19. What are the products that have never been sold? Show product ID and product name.
+
+20. What are the total quantities sold for each product? Sort the result by total quantity in descending order.
+
+21. What are the orders placed in 1997 and which employee processed each one?
+
+22. What are the top 5 customers by total spending? Show customer name and total spend.
+
+23. Which products belong to the 'Dairy Products' category and cost less than 20?
+
+24. What are the distinct countries of customers whose city name contains the letter 'o'?
+
+25. What are the names of employees who have handled orders for customers from 'USA'?
+
+26. Which shippers have shipped no orders? Show the shipper name.
+
+27. What are the products with a price above the average price of products in the same category?
+
+28. How many orders were placed in each month of 1996? Sort by month ascending.
+
+29. Which orders contain more than 5 different products? Show the order ID and number of products.
+
+30. What are the customers whose total order value is greater than the average total order value across all customers?
+
