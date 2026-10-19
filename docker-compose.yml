@@ -1,6 +1,17 @@
 services:
 
+  app:
+    image: mcr.microsoft.com/devcontainers/python:3.12
+    working_dir: /workspaces/python_postgresql_pgadmin
+    command: sleep infinity
+    volumes:
+      - .:/workspaces/python_postgresql_pgadmin
+    depends_on:
+      - db
+      - pgadmin
+
   db:
+    platform: linux/amd64
     build:
       context: .
       dockerfile: Dockerfile
